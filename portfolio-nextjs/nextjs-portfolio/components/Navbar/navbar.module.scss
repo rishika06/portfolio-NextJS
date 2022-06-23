@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 70%;
+
+  &_logo {
+    font-size: 34px;
+
+    & > span {
+      color: #fe481c;
+    }
+  }
+
+  &_ul {
+    margin: 0;
+    padding-top: 8px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+  }
+
+  &_li {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &_chat_button {
+    height: 42px;
+    width: 110px;
+    border: 2px solid #fe481c;
+    border-radius: 4px;
+    // margin-top: 30px;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+}
